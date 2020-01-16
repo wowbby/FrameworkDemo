@@ -1,0 +1,16 @@
+PODS:
+  - FrameworkDemo (0.1.0)
+
+DEPENDENCIES:
+  - FrameworkDemo (from `../`)
+
+EXTERNAL SOURCES:
+  FrameworkDemo:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FrameworkDemo: 193a50fcd950f3002a922c5f60526406461c62b1
+
+PODFILE CHECKSUM: ac13d5c87c81dd995c2759d6589cdc29bd26fc06
+
+COCOAPODS: 1.8.4

@@ -1,0 +1,31 @@
+{
+  "name": "FrameworkDemo",
+  "version": "0.1.0",
+  "summary": "设置描述",
+  "homepage": "https://github.com/zhengzhenxing/FrameworkDemo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "zhengzhenxing": "zhengzhenxing3@jd.com"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source": {
+    "git": "https://github.com/zhengzhenxing/FrameworkDemo.git",
+    "tag": "0.1.0"
+  },
+  "prepare_command": "touch Cartfile\necho 'git \"git@github.com:zhengzhenxing/FrameworkDemo.git\" == 0.1.0' > Cartfile\nCarthage update --platform iOS",
+  "subspecs": [
+    {
+      "name": "Source",
+      "source_files": "FrameworkDemo/Classes/**/*"
+    },
+    {
+      "name": "Framework",
+      "vendored_frameworks": "Carthage/build/iOS/FrameworkDemo.framework"
+    }
+  ]
+}
